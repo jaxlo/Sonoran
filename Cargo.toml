@@ -1,0 +1,20 @@
+[package]
+name = "jinix"
+version = "0.1.0"
+edition = "2021"
+homepage = "https://github.com/jaxlo/Jinix"
+authors = ["Jackson Lohman <j@jaxlo.net>"]
+readme = "README.md"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+# Disable Unwinding: https://os.phil-opp.com/freestanding-rust-binary/#disabling-unwinding
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
