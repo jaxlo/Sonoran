@@ -1,4 +1,4 @@
-# Jinix
+# jinix
 An academic operating system in rust for my IS capstone
 
 
@@ -40,5 +40,4 @@ Hardware
 
 
 ## Resources used:
-- https://github.com/Akshay-Srivatsan/ox64-baremetal-setup
-- https://os.phil-opp.com/
+- https://os.phil-opp.com/ <- The freestanding binary and kernel start
